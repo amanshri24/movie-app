@@ -57,10 +57,10 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/:mediaType/:id" element={<Details /> } />
-        <Route path="/search/:query" element={<SearchResult /> } />
-        <Route path="/explore/:mediaType" element={<Explore />} />
+        <Route path="/movieapp/" element={<Home />} />
+        <Route path="/movieapp/:mediaType/:id" element={<Details /> } />
+        <Route path="/movieapp/search/:query" element={<SearchResult /> } />
+        <Route path="/movieapp/explore/:mediaType" element={<Explore />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />
